@@ -1,7 +1,9 @@
 import React from "react";
 import s from "./ThisDay.module.scss";
+
 import { GlobalSvgSelector } from "../../assets/icons/global/GlobalSvgSelector";
 interface Props {}
+
 export const ThisDay = (props: Props) => {
   return (
     <div className={s.this_day}>
